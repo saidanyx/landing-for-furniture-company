@@ -3,6 +3,20 @@
 :root {
   --font-heading: "Montserrat", sans-serif;
   --font-body: "Nunito", sans-serif;
+<<<<<<< HEAD
+=======
+  --radius-30px: 30px;
+  --radius-24px: 24px;
+  --radius-15px: 15px;
+  --color-white: #ffffff;
+  --color-yellow: #FAD100;
+  --color-orange: #FF992B;
+  --color-dark-grey: #34332D;
+  --color-grey: #E5E5E1;
+  --color-light-yellow: #FEFAEB;
+  --color-light-grey: #F6F5F1;
+  --color-black: #0A0A0A;
+>>>>>>> b456175363f6ad1ef4171e8702c9e8314641d203
 
 }
 
