@@ -3,6 +3,9 @@
 :root {
   --font-heading: "Montserrat", sans-serif;
   --font-body: "Nunito", sans-serif;
+  
+}
+@theme {
   --radius-30px: 30px;
   --radius-24px: 24px;
   --radius-15px: 15px;
@@ -16,7 +19,6 @@
   --color-black: #0A0A0A;
 
 }
-
 .text-3xl {
   font-family: var(--font-heading);
   font-size: 48px;
@@ -71,4 +73,11 @@
   font-weight: 400;
   line-height: 22.8px;
   letter-spacing: 0px;
+}
+.text-1xs {
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 1.2px;
 }
