@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SectionsHeader />
+    <SectionsAdvantages />
   </div>
 </template>
