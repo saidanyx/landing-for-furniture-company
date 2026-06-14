@@ -2,6 +2,7 @@
   <div>
     <SectionsHeader />
     <SectionsAdvantages />
+    <SectionsPhone />
     <SectionsFooter />
     
   </div>
