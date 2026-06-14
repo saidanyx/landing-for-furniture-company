@@ -81,3 +81,10 @@
   line-height: 16px;
   letter-spacing: 1.2px;
 }
+.text-2xs {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3.6px;
+}
