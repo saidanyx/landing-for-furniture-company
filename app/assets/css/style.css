@@ -22,7 +22,7 @@
 
 /* Heading */
 
-.text-heading-3xl {
+.text-heading-4xl {
   font-family: var(--font-heading);
   font-size: 48px;
   font-weight: 900;
@@ -30,12 +30,20 @@
   letter-spacing: -1.2px;
 }
 
+.text-heading-3xl {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 45px;
+  letter-spacing: -0.9px;
+}
+
 .text-heading-2xl {
   font-family: var(--font-heading);
   font-size: 30px;
   font-weight: 900;
   line-height: 36px;
-  letter-spacing: -0.4px;
+  letter-spacing: 0px;
 }
 
 .text-heading-xl-black {
@@ -81,6 +89,23 @@
   letter-spacing: 0;
 }
 
+.text-body-sm-bold {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.text-body-sm-semibold {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+
 .text-body-sm-medium {
   font-family: var(--font-body);
   font-size: 14px;
@@ -97,6 +122,7 @@
   letter-spacing: 0;
 }
 
+
 .text-body-sm {
   font-family: var(--font-body);
   font-size: 14px;
@@ -104,6 +130,15 @@
   line-height: 20px;
   letter-spacing: 0;
 }
+
+.text-body-xs-medium {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+}
+
 
 .text-body-xs-relaxed {
   font-family: var(--font-body);
