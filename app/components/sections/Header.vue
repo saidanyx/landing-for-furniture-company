@@ -1,7 +1,7 @@
 <template>
     <section class="flex flex-col gap-6">
-        <h1 class="text-heading-3xl">Мебель,<br>которая<br>мурлычет.</h1>
-        <p class="text-body-lg">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
+        <h1 class="text-heading-4xl">Мебель,<br>которая<br>мурлычет.</h1>
+        <p class="text-body-lg w-[85vw]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
         <button class="text-body-sm-bold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[203px] h-[52px]">Сделать замер</button>
         <button class="text-body-sm-semibold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[52px]">О производстве</button>
         <div class="border-1 border-[#DAD9D6] rounded-[27px] w-[342px] h-[120px] flex flex-col justify-center box-border p-[18px]">

@@ -1,7 +1,7 @@
 <template>
   <div class="p-[25px] pt-[96px] pb-[35px] bg-light-yellow">
     <div class="flex flex-col gap-[12px]">
-      <p1 class="text-2xs text-orange">ПОЧЕМУ МЭЙКО</p1>
+      <p1 class="text-body-xs-bold text-orange">ПОЧЕМУ МЭЙКО</p1>
       <div class="flex flex-col">
         <p1 class="text-heading-3xl text-black">Кот в доме — к уюту. </p1>
         <p1 class="text-heading-3xl text-orange">МЭЙКО — к мебели.</p1>
