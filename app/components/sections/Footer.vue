@@ -11,8 +11,8 @@
                 class="object-contain"
             />
             <div class="flex flex-col">
-                <h1 class="text-5xl font-bold">МЭЙКО</h1>
-                <p class="text-6xl">МЕБЕЛЬ</p>
+                <h1 class="text-5xl text-black">МЭЙКО</h1>
+                <p class="text-6xl text-dark-grey">МЕБЕЛЬ</p>
             </div>
             </div>
             <div>
