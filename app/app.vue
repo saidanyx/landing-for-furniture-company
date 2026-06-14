@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <main>
     <SectionsHeader />
     <SectionsAdvantages />
     <SectionsFooter />
-    
-  </div>
+  </main>
 </template>
