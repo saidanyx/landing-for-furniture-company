@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SectionsPhone />
+    <SectionsFooter />
   </div>
 </template>
