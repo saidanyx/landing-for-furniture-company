@@ -8,6 +8,20 @@
             <p class="text-sm">Что такое замер?</p>
             <p class="text-xs">Ответьте на 6 вопросов и получите расчёт стоимости кухни по Вашим параметрам в 3-х ценовых вариантах + 3D-проект кухни бесплатно</p>
         </div>
-          
+        <div class="flex">
+            <div>
+                <p class="text-2xl">30</p>
+                <p class="text-xs uppercase">лет опыта</p>
+            </div>
+            <div>
+                <p class="text-2xl">1 200+</p>
+                <p class="text-xs uppercase">моделей</p>
+            </div>
+            <div>
+                <p class="text-2xl">98%</p>
+                <p class="text-xs uppercase">довольных<br>клиентов</p>
+            </div>
+
+        </div>
     </section>
 </template>
