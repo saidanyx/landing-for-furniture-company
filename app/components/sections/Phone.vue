@@ -1,6 +1,8 @@
 <template>
   <div class="px-[25px] py-[35px] bg-white">
-    <div class="bg-yellow p-[40px] flex flex-col rounded-[32px] gap-[33px]">
+    <div class=" relative bg-yellow p-[40px] flex flex-col rounded-[32px] gap-[33px] overflow-hidden">
+        <div class="absolute inset-0 bg-[url(/images/meyko-cat-DT21PO_s.png.png)] bg-no-repeat opacity-100" bg-[288px_288px] style="background-position: 200% 100%;">
+        </div>
         <div class="flex flex-col gap-[22px]">
             <h1 class="text-4xl text-black">Подберём мебель под ваш дом за один разговор.</h1>
             <p1 class="text-1md text-black/75">Оставьте номер — менеджер позвонит в течение 15 минут, рассчитает смету и забронирует бесплатный замер.</p1>
