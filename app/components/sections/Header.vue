@@ -1,11 +1,12 @@
 <template>
     <section class="flex flex-col gap-6">
-        <div class="bg-light-yellow border-black/10 rouded-lg">
-            <p class="text-body-xs-semibold inline-flex items-center gap-2 before:h-2 before:w-2 before:bg-yellow-500 before:content-[''] before:block before:rounded-full">Воронеж · с 1995 года</p>
+        <div class="bg-light-yellow border-1 border-black/10 rounded-lg flex items-center justify-center w-[222px] h-[30px] gap-2">
+            <div class="h-[6px] w-[6px] bg-yellow-500 rounded-full"></div>
+            <p class="text-label-xs-semibold-wide text-dark-grey">Воронеж · с 1995 года</p>
         </div>
         <h1 class="text-heading-4xl">Мебель,<br>которая<br>мурлычет.</h1>
         <p class="text-body-lg w-[85vw]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
-        <button class="text-body-sm-bold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[203px] h-[52px]">Сделать замер</button>
+        <button class="text-body-sm-bold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер</button>
         <button class="text-body-sm-semibold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[52px]">О производстве</button>
         <div class="border-1 border-[#DAD9D6] rounded-[27px] w-[342px] h-[120px] flex flex-col justify-center box-border p-[18px]">
             <p class="text-body-sm-bold">Что такое замер?</p>
