@@ -156,23 +156,6 @@
   text-transform: uppercase;
 }
 
-.text-body-xs-semibold {
-  font-family: var(--font-body);
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-}
-
-.text-body-2xs-semibold {
-  font-family: var(--font-body);
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-}
 
 .text-body-xs-medium {
   font-family: var(--font-body);
@@ -198,16 +181,6 @@
   letter-spacing: 0;
 }
 
-.text-body-1xs-semibold {
-  font-family: var(--font-body);
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-}
-
-
 /* Label */
 
 .text-label-sm {
@@ -225,6 +198,33 @@
   font-weight: 600;
   line-height: 11.2px;
   letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+
+.text-label-xs-semibold-wide {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.text-label-xs-semibold {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.text-label-2xs-semibold-wide {
+  font-family: var(--font-body);
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
 }
 
