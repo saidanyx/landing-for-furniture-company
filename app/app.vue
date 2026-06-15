@@ -3,6 +3,7 @@
     <SectionsNavbar />
     <SectionsHeader />
     <SectionsAdvantages />
+    <SectionsPhone />
     <SectionsFooter />
   </main>
 </template>

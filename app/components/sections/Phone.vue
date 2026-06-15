@@ -4,14 +4,14 @@
         <div class="absolute inset-0 bg-[url(/images/meyko-cat-DT21PO_s.png.png)] bg-no-repeat opacity-100" bg-[288px_288px] style="background-position: 200% 100%;">
         </div>
         <div class="flex flex-col gap-[22px]">
-            <h1 class="text-4xl text-black">Подберём мебель под ваш дом за один разговор.</h1>
-            <p1 class="text-1md text-black/75">Оставьте номер — менеджер позвонит в течение 15 минут, рассчитает смету и забронирует бесплатный замер.</p1>
+            <h1 class="text-heading-3xl text-black">Подберём мебель под ваш дом за один разговор.</h1>
+            <p1 class="text-body-md text-black/75">Оставьте номер — менеджер позвонит в течение 15 минут, рассчитает смету и забронирует бесплатный замер.</p1>
         </div>
         <div class="flex flex-col gap-[12px]">
             <div class=" bg-white/95 border-1 border-black/15 rounded-[33px] content-center h-[54px]">
-                <p1 class="text-1sm text-dark-grey px-[25px]">+7 (___) ___-__-__</p1>
+                <p1 class="text-body-sm-medium text-dark-grey px-[25px]">+7 (___) ___-__-__</p1>
             </div>
-            <button class="text-sm bg-black rounded-[33px] text-white h-[52px]">Жду звонка</button>
+            <button class="text-body-sm-bold bg-black rounded-[33px] text-white h-[52px]">Жду звонка</button>
         </div>
     </div>
   </div>
