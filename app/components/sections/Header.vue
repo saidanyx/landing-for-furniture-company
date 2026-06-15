@@ -1,5 +1,8 @@
 <template>
     <section class="flex flex-col gap-6">
+        <div class="bg-light-yellow border-black/10 rouded-lg">
+            <p class="text-body-xs-semibold inline-flex items-center gap-2 before:h-2 before:w-2 before:bg-yellow-500 before:content-[''] before:block before:rounded-full">Воронеж · с 1995 года</p>
+        </div>
         <h1 class="text-heading-4xl">Мебель,<br>которая<br>мурлычет.</h1>
         <p class="text-body-lg w-[85vw]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
         <button class="text-body-sm-bold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[203px] h-[52px]">Сделать замер</button>
