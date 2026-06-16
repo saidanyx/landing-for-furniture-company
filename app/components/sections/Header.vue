@@ -4,15 +4,19 @@
             <div class="h-[6px] w-[6px] bg-yellow-500 rounded-full"></div>
             <p class="text-label-xs-semibold-wide text-dark-grey">Воронеж · с 1995 года</p>
         </div>
-        <h1 class="text-heading-4xl">Мебель,<br>которая<br>мурлычет.</h1>
-        <p class="text-body-lg w-[85vw]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
-        <div class="flex flex-col gap-[16px]">
-            <button class="flex justify-center items-center gap-4 text-body-sm-bold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер <img src="~/assets/images/arrow_button.svg" alt=""></button>
-            <button class="text-body-sm-semibold border-1 border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</button>
+        <div class="flex flex-col gap-[10px]">
+            <div class="flex flex-col gap-[28px]">
+                <h1 class="text-heading-4xl">Мебель,<br>которая<br>мурлычет.</h1>
+                <p class="text-body-lg w-[85vw]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
+            </div>
+            <div class="flex flex-col gap-[16px]">
+                <button class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер <img src="~/assets/images/arrow_button.svg" alt=""></button>
+                <button class="text-body-sm-semibold border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</button>
+            </div>
         </div>
-        <div class="border-1 border-[#DAD9D6] rounded-[27px] w-[342px] h-[120px] flex flex-col justify-center box-border p-[18px]">
+        <div class="border-[1px] border-black/15 rounded-[27px] w-[342px] h-[120px] flex flex-col justify-center box-border p-[18px]">
             <p class="text-body-sm-bold">Что такое замер?</p>
-            <p class="text-body-sm-relaxed">Ответьте на 6 вопросов и получите расчёт стоимости кухни по Вашим параметрам в 3-х ценовых вариантах + 3D-проект кухни бесплатно</p>
+            <p class="text-body-xs-relaxed">Ответьте на 6 вопросов и получите расчёт стоимости кухни по Вашим параметрам в 3-х ценовых вариантах + 3D-проект кухни бесплатно</p>
         </div>
         <div class="flex flex-col gap-[38px]">
             <hr class="h-px w-full border-0 bg-grey"/>
