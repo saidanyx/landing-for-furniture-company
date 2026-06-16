@@ -4,7 +4,7 @@
         <div class="flex flex-col gap-[20px]">
             <div class="flex items-center gap-[12px]">
             <img 
-                src="/Images/Logotype.svg"
+                src="/assets/images/Logotype.svg"
                 alt="image"
                 width="131.7px"
                 height="40px"

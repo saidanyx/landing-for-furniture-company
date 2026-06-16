@@ -9,7 +9,7 @@
         <div class="flex flex-col gap-[25px]">
             <div class="bg-white w-[340px] rounded-[24px] overflow-hidden flex flex-col gap-[25px] border-[1px] border-grey">
                 <img 
-                src="/Images/Кресло «Мур».png"
+                src="/images/Кресло «Мур».png"
                 alt="image"
                 width="340px"
                 height="340px"
@@ -22,7 +22,7 @@
             </div>
             <div class="bg-white w-[340px] rounded-[24px] overflow-hidden flex flex-col gap-[25px] border-[1px] border-grey">
                 <img 
-                src="/Images/Стол «Дубрава».png"
+                src="/images/Стол «Дубрава».png"
                 alt="image"
                 width="340px"
                 height="340px"
@@ -35,7 +35,7 @@
             </div>
             <div class="bg-white w-[340px] rounded-[24px] overflow-hidden flex flex-col gap-[25px] border-[1px] border-grey">
                 <img 
-                src="/Images/Шкаф «Терра».png"
+                src="/images/Шкаф «Терра».png"
                 alt="image"
                 width="340px"
                 height="340px"
