@@ -14,18 +14,18 @@
             <p class="text-body-sm-bold">Что такое замер?</p>
             <p class="text-body-sm-relaxed">Ответьте на 6 вопросов и получите расчёт стоимости кухни по Вашим параметрам в 3-х ценовых вариантах + 3D-проект кухни бесплатно</p>
         </div>
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-[38px]">
             <hr class="h-px w-full border-0 bg-grey"/>
             <div class="flex justify-between">
-                <div class="flex flex-col gap-1 justify-start items-start">
+                <div class="flex flex-col gap-1 justify-start items-start h-[56px]">
                     <p class="text-heading-2xl">30</p>
                     <p class="text-body-xs-medium uppercase">лет опыта</p>
                 </div>
-                <div class="flex flex-col gap-1 justify-start items-start">
+                <div class="flex flex-col gap-1 justify-start items-center h-[56px]">
                     <p class="text-heading-2xl">1 200+</p>
                     <p class="text-body-xs-medium uppercase">моделей</p>
                 </div>
-                <div class="flex flex-col gap-1 justify-start items-start"> 
+                <div class="flex flex-col gap-1 justify-start items-center h-[56px]"> 
                     <p class="text-heading-2xl">98%</p>
                     <p class="text-body-xs-medium uppercase">довольных<br>клиентов</p>
                 </div>
@@ -33,7 +33,7 @@
             <hr class="h-px w-full border-0 bg-grey"/>
         </div>
         <div class="relative w-full h-full">
-            <div className="pointer-events-none absolute -right-10 -top-10 z-0 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
+            <div className="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
             <NuxtImg class="relative w-full h-full z-10 object-cover rounded-lg" src="/images/header_living_room.svg"></NuxtImg>
         </div>
 
