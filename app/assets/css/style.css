@@ -21,6 +21,16 @@
   --radius-md: 15px;
 }
 
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 /* Heading */
 
 .text-heading-4xl {
