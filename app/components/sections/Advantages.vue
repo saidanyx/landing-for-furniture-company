@@ -1,5 +1,5 @@
 <template>
-    <div class="relative gap-[66px] flex flex-col pt-[96px]">
+    <div class="relative gap-[66px] flex flex-col pt-[96px] pb-[35px]">
         <div class="absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2 bg-light-yellow"></div>
         <div class="flex flex-col">
             <p class="text-body-xs-bold text-orange">ПОЧЕМУ МЭЙКО</p>
