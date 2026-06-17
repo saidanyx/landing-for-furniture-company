@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col align-middle w-[89vw] ml-auto mr-auto gap-20">
+  <main class="flex flex-col align-middle w-[89vw] ml-auto mr-auto gap-[35px]">
     <SectionsNavbar/>
     <SectionsHeader class="pt-[180px]" />
     <SectionsMerquee />

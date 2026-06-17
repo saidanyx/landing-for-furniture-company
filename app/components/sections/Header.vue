@@ -1,10 +1,10 @@
 <template>
-    <section class="flex flex-col gap-6">
+    <section class="flex flex-col gap-[13px]">
         <div class="bg-light-yellow border-1 border-black/10 rounded-lg flex items-center justify-center w-[222px] h-[30px] gap-2">
             <div class="h-[6px] w-[6px] bg-yellow-500 rounded-full"></div>
             <p class="text-label-xs-semibold-wide text-dark-grey">Воронеж · с 1995 года</p>
         </div>
-        <div class="flex flex-col gap-[10px]">
+        <div class="flex flex-col gap-[10px] mt-[11px]">
             <div class="flex flex-col gap-[28px]">
                 <h1 class="text-heading-4xl">Мебель,<br>которая<br>мурлычет.</h1>
                 <p class="text-body-lg w-[85vw]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
@@ -36,7 +36,7 @@
             </div>
             <hr class="h-px w-full border-0 bg-grey"/>
         </div>
-        <div class="relative w-full h-full">
+        <div class="relative w-full h-full mt-[21px]">
             <div className="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
             <NuxtImg class="relative w-full h-full z-10 object-cover rounded-lg" src="/images/header_living_room.svg"></NuxtImg>
         </div>
