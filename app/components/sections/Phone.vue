@@ -1,10 +1,10 @@
 <template>
-    <div class="relative bg-yellow p-[40px] flex flex-col rounded-2xl gap-[32px] overflow-hidden">
+    <div class="relative bg-yellow p-[40px] flex flex-col rounded-2xl my-[35px] gap-[32px] overflow-hidden">
     
         <NuxtImg
-        class="absolute right-[-115px] bottom-0"
-        width="288px"
-        height="288px"
+        class="absolute right-[-92px] bottom-0"
+        width="248px"
+        height="248px"
         src="/images/cat.png"
         />
         <div class="flex flex-col gap-[20px] z-1">
