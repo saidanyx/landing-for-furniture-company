@@ -19,6 +19,12 @@
   --radius-xl: 30px;
   --radius-lg: 24px;
   --radius-md: 15px;
+
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1400px;
+  --breakpoint-2xl: 1920px;
+  --breakpoint-3xl: 2560px;
 }
 
 @keyframes scroll {
