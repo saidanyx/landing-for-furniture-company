@@ -1,7 +1,7 @@
 <template>
     <div class="relative bg-yellow p-[40px] flex flex-col rounded-2xl gap-[33px]">
     
-        <NuxtImg src="/cat.png" />
+        <NuxtImg src="/images/cat.png" />
         <div class="flex flex-col gap-[22px] z-1">
             <h1 class="text-heading-3xl text-black">Подберём мебель под ваш дом за один разговор.</h1>
             <p class="text-body-md text-black/75">Оставьте номер — менеджер позвонит в течение 15 минут, рассчитает смету и забронирует бесплатный замер.</p>

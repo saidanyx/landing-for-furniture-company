@@ -18,13 +18,13 @@ export default defineNuxtConfig({
       {
         name: 'Montserrat',
         provider: 'google',
-        weights: ['700', '900'],
+        weights: ['400', '600', '700', '900'],
         styles: ['normal']
       },
       {
         name: 'Nunito',
         provider: 'google',
-        weights: ['400', '700'],
+        weights: ['400', '500', '600', '700'],
         styles: ['normal']
       }
     ]
