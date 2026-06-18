@@ -4,6 +4,7 @@
   --font-heading: "Montserrat", sans-serif;
   --font-body: "Nunito", sans-serif;
   
+  --layout-width: 87.8vw;
 }
 @theme {
   --color-white: #ffffff;
