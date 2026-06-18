@@ -1,3 +1,11 @@
 <template>
-    <h1 class="text-[36px] text-black sm:text-[48px]">Мебель для жизни</h1>
+    <main class="flex flex-col align-middle w-[87.8vw] ml-auto mr-auto">
+        <SectionsNavbar />
+        <SectionsHeader class="pt-[180px]" />
+        <SectionsMerquee class="mt-[36px]" />
+        <SectionsFurniture class="mt-[35px]"/>
+        <SectionsAdvantages class="mt-[35px]" />
+        <SectionsPhone />
+        <SectionsFooter />
+    </main>
 </template>

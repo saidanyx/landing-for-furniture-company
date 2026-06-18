@@ -227,35 +227,42 @@
 }
 
 .text-label-xs-semibold {
-  font-family: var(--font-body);
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
 }
 
 .text-label-2xs-semibold-wide {
-  font-family: var(--font-body);
-  font-size: 8px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
+    font-family: var(--font-body);
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
 }
 
 
 /* Numbers */
 
 .text-number-xs {
-  font-family: var(--font-heading);
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  letter-spacing: 1.2px;
+    font-family: var(--font-heading);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.2px;
 }
 
-@media (min-width: 625px) { 
+@media (min-width: 768px) { 
 
+    .text-heading-4xl {
+        font-family: var(--font-heading);
+        font-size: 68px;
+        font-weight: 900;
+        line-height: 45.6px;
+        letter-spacing: -1.2px;
+    }
 
 }

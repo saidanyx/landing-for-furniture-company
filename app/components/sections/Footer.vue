@@ -1,6 +1,6 @@
 <template>
-  <div class="h-[1px] relative w-2000 bg-grey -translate-x-1/2 left-1/2"></div>
-  <div class="pt-[56px] pb-[57px] bg-white">
+  <div class="relative pt-[56px] pb-[57px] bg-white">
+    <hr class="absolute top-0 left-1/2 h-px w-screen -translate-x-1/2 border-0 bg-grey"/>
     <div class="flex flex-col gap-[40px]">
         <div class="flex flex-col gap-[20px]">
             <div class="flex items-center gap-[12px]">
@@ -41,9 +41,10 @@
             </div>
         </div>
     </div>
+    <hr class="absolute bottom-0 left-1/2 h-px w-screen -translate-x-1/2 border-0 bg-grey"/>
   </div>
   <div class="flex flex-col content-center">
-    <div class="h-[1px] relative w-2000 bg-grey -translate-x-1/2 left-1/2"></div>
+    <hr class="absolute bottom-0 left-1/2 h-px w-screen -translate-x-1/2 border-0 bg-grey"/>
     <div class="flex flex-col gap-[12px] py-[24px] content-center mb-[24px]">
         <p1 class="text-body-xs text-center text-dark-grey">© 1995–2026 МЭЙКО МЕБЕЛЬ. Все права защищены.</p1>
         <p1 class="text-body-xs text-center text-dark-grey">Сделано с любовью в Воронеже</p1>
