@@ -1,7 +1,7 @@
 <template>
   <div class="relative pt-[56px] pb-[57px] bg-white">
     <hr class="absolute top-0 left-1/2 h-px w-screen -translate-x-1/2 border-0 bg-grey"/>
-    <div class="flex flex-col gap-[40px]">
+    <div class="flex flex-col gap-[40px] md:flex-row">
         <div class="flex flex-col gap-[20px]">
             <div class="flex items-center gap-[12px]">
             <img 
