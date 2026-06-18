@@ -13,25 +13,25 @@
             <div class="flex flex-col md:flex-row gap-[1px]">
                 <div class="flex flex-col px-[32px] pt-[32px] pb-[33.5px] md:w-full bg-white rounded-t-[24px] md:rounded-none">
                     <p class="text-number-xs text-orange">01</p>
-                    <h1 class="text-heading-xl-bold text-black mt-[16px]">Воронежское производство</h1>
-                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">Полный цикл изготовления на собственной фабрике.</p>
+                    <h1 class="text-heading-xl-bold text-black mt-[16px]">Воронежское<br> производство</h1>
+                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">Полный цикл изготовления<br> на собственной фабрике.</p>
                 </div>
                 <div class="flex flex-col px-[32px] pt-[32px] pb-[33.5px] md:w-full bg-white">
                     <p class="text-number-xs text-orange">02</p>
                     <h1 class="text-heading-xl-bold text-black mt-[16px]">Огромный выбор мебели</h1>
-                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">Более 1 200 моделей в каталоге, кастомизация под вас.</p>
+                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">Более 1 200 моделей в каталоге,<br> кастомизация под вас.</p>
                 </div>
             </div>
             <div class="flex flex-col md:flex-row gap-[1px]">
                 <div class="flex flex-col px-[32px] pt-[32px] pb-[33.5px] md:w-full bg-white">
                     <p class="text-number-xs text-orange">03</p>
                     <h1 class="text-heading-xl-bold text-black mt-[16px]">Пожизненный сервис</h1>
-                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">Гарантийное и постгарантийное обслуживание навсегда.</p>
+                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">Гарантийное и постгарантийное<br> обслуживание навсегда.</p>
                 </div>
                 <div class=" flex flex-col px-[32px] pt-[32px] pb-[33.5px] md:w-full bg-white rounded-b-[24px] md:rounded-none">
                     <p class="text-number-xs text-orange">04</p>
                     <h1 class="text-heading-xl-bold text-black mt-[16px]">30 лет с вами</h1>
-                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">С 1995 года создаём мебель, которой доверяют.</p>
+                    <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">С 1995 года создаём мебель, которой<br> доверяют.</p>
                 </div>
             </div>
         </div>
