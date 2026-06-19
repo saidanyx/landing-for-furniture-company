@@ -7,7 +7,7 @@
             </div>
             <p class="text-heading-2xl-black text-black text-center">Мебель для жизни</p>
         </div>
-        <div class="flex flex-col gap-[25px] md:gap-[24px] md:flex-row">
+        <div class="flex flex-col gap-[25px] md:gap-[24px] md:flex-row md:justify-center">
             <div class="bg-white rounded-[24px] overflow-hidden flex flex-col gap-[25px] md:gap-[24px] border-[1px] border-grey">
                 <img 
                 src="/images/Кресло «Мур».png"
