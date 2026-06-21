@@ -22,7 +22,7 @@
 
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1400px;
+  --breakpoint-xl: 1440px;
   --breakpoint-2xl: 1920px;
   --breakpoint-3xl: 2560px;
 }
@@ -33,7 +33,7 @@
   }
 
   to {
-    transform: translateX(-50%);
+    transform: translateX(-20%);
   }
 }
 
@@ -263,9 +263,67 @@
         line-height: 20px;
         letter-spacing: 0;
     }
+
     :root {
-    --layout-width: 93.75vw;
+        --layout-width: 93.75vw;
     }
+
+    .text-body-xs-relaxed {
+        font-family: var(--font-body);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.8px;
+        letter-spacing: 0;
+    }
+
+    .text-label-2xs-semibold-wide {
+        font-family: var(--font-body);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+    }
+
+    .text-heading-2xl-black {
+        font-family: var(--font-heading);
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        letter-spacing: -1.2px;
+    }
+
+    .text-heading-3xl {
+        font-family: var(--font-heading);
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+    }
+}
+
+@media (min-width: 1440px) { 
+
+    .text-heading-4xl {
+        font-family: var(--font-heading);
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 68.4px;
+        letter-spacing: -1.8px;
+    }
+    
+    .text-body-sm-semibold {
+        font-family: var(--font-body);
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+    
+    :root {
+        --layout-width: 85.56vw;
+    }
+
     .text-body-xs-relaxed {
     font-family: var(--font-body);
     font-size: 14px;
@@ -273,6 +331,7 @@
     line-height: 22.8px;
     letter-spacing: 0;
     }
+
     .text-label-2xs-semibold-wide {
     font-family: var(--font-body);
     font-size: 12px;
@@ -281,6 +340,7 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
     }
+
     .text-heading-2xl-black {
     font-family: var(--font-heading);
     font-size: 48px;
@@ -288,6 +348,7 @@
     line-height: 48px;
     letter-spacing: -1.2px;
     }
+
     .text-heading-3xl {
     font-family: var(--font-heading);
     font-size: 48px;
