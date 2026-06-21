@@ -12,7 +12,7 @@
                 </div>
                 <div class="flex flex-col md:flex-row gap-[16px] mt-[13px] md:mt-[37.75px] xl:mt-[31.75px]">
                     <button class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер <img src="~/assets/images/arrow_button.svg" alt=""></button>
-                    <button class="text-body-sm-semibold border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</button>
+                    <button class="text-body-sm-medium border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</button>
                 </div>
                 <div class="border-[1px] border-black/15 rounded-[27px] w-[342px] md:w-[386px] h-[120px] md:h-[137px] flex flex-col justify-center box-border px-[26px] md:px-[23px] gap-[9px] md:gap-[18px] mt-[13px] md:mt-[9.25px]">
                     <p class="text-body-sm-bold">Что такое замер?</p>
@@ -21,7 +21,7 @@
             </div>
             
             <div class="relative hidden xl:block">
-                <div className="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
+                <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
                 <NuxtImg class="relative w-[598px] h-[498.33px] z-10 object-cover rounded-lg" src="/images/header_living_room.svg"></NuxtImg>
             </div>
 
@@ -29,23 +29,23 @@
         <div class="flex flex-col gap-[34px] md:gap-[16px] mt-[13px] md:mt-[47px] xl:mt-[16px]">
             <hr class="h-px w-full border-0 bg-grey"/>
             <div class="flex justify-between">
-                <div class="flex flex-col gap-1 justify-start text-start h-[56px]">
+                <div class="flex flex-col gap-1 justify-start text-start h-[56px] w-[100px]">
                     <p class="text-heading-2xl">30</p>
                     <p class="text-body-xs-medium uppercase text-dark-grey">лет опыта</p>
                 </div>
-                <div class="flex flex-col gap-1 justify-start text-center h-[56px]">
+                <div class="flex flex-col gap-1 justify-start text-center h-[56px] w-[100px]">
                     <p class="text-heading-2xl">1 200+</p>
                     <p class="text-body-xs-medium uppercase text-dark-grey">моделей</p>
                 </div>
-                <div class="flex flex-col gap-1 justify-start text-center items-end h-[56px]"> 
+                <div class="flex flex-col gap-1 justify-start text-center items-end h-[56px] w-[100px]"> 
                     <p class="text-heading-2xl">98%</p>
-                    <p class="text-body-xs-medium uppercase text-dark-grey">довольных<br class="md:hidden"> клиентов</p>
+                    <p class="text-body-xs-medium uppercase text-dark-grey whitespace-nowrap">довольных<br class="md:hidden"> клиентов</p>
                 </div>
             </div>
             <hr class="h-px w-full border-0 bg-grey"/>
         </div>
         <div class="relative w-full h-full mt-[34px] md:mt-[85px] xl:hidden">
-            <div className="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
+            <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
             <NuxtImg class="relative w-full h-full z-10 object-cover rounded-lg" src="/images/header_living_room.svg"></NuxtImg>
         </div>
     </section>
