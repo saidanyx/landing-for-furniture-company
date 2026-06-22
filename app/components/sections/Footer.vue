@@ -50,3 +50,27 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+    let blocks = ref<FooterType[] | null>(null);
+    
+    interface FooterType {
+        title: string;
+        items: string[];
+    }
+
+    blocks.value = [
+        {
+            title: 'Компания',
+            items: ['ООО «Мэйко»', 'ИНН 3663060384', 'ОГРН 1063667241780']
+        },
+        {
+            title: 'Контакты',
+            items: ['г. Воронеж, ул. Ильюшина, 5', '+7 (991) 325-09-01', 'hello@meyko.ru']
+        },
+        {
+            title: 'Документы',
+            items: ['Политика обработки персольных данных',]
+        },
+    ]
+</script>

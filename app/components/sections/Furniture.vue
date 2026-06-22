@@ -30,7 +30,7 @@
                         <h1 class="text-label-xs-semibold text-dark-grey">Столовая</h1>
                         <p1 class="text-heading-xl-bold">Стол<br class="hidden md:block xl:hidden"> «Дубрава»</p1>
                     </div>
-                    <div class="flex flex-col gap-[4px] mt-[4px] hidden xl:block">
+                    <div class="flex flex-col gap-[4px] mt-[4px] hidden xl:block 2xl:hidden">
                         <h1 class="text-body-xs text-dark-grey text-right">Цена</h1>
                         <p1 class="text-heading-bold-2 text-right"> от 38 500 ₽</p1>
                     </div>
@@ -47,7 +47,7 @@
                         <h1 class="text-label-xs-semibold text-dark-grey">Спальня</h1>
                         <p1 class="text-heading-xl-bold">Шкаф<br class="hidden md:block xl:hidden"> «Терра»</p1>
                     </div>
-                    <div class="flex flex-col mt-[4px] gap-[4px] hidden xl:block">
+                    <div class="flex flex-col mt-[4px] hidden xl:block 2xl:hidden">
                         <h1 class="text-body-xs text-dark-grey text-right">Цена</h1>
                         <p1 class="text-heading-bold-2 text-right"> от 62 000 ₽</p1>
                     </div>

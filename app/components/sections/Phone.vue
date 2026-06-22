@@ -14,6 +14,7 @@
             </div>
             <div class="flex flex-col gap-[12px] z-1 md:flex-row">
                 <input 
+                    ref="phoneInput"
                     type="text" 
                     placeholder="+7 (___) ___-__-__" 
                     class="bg-white/95 text-body-sm-medium text-dark-grey border-1 md:w-[434.11px] xl:w-[514.11px] border-black/15 rounded-[33px] h-[54px] px-[25px]"
@@ -23,3 +24,21 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    import { ref, onMounted } from 'vue';
+    import imask from 'imask';
+
+    let phoneInput = ref(null);
+    let phoneMask = null;
+
+    onMounted(() => {
+        phoneMask = imask(phoneInput.value, {
+            mask: '7-000-000-00-00'
+        });
+    });
+
+    onBeforeUnmount(() => {
+        phoneMask?.destroy()
+    })
+</script>
