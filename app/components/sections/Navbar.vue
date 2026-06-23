@@ -3,12 +3,12 @@
         <div class="flex justify-start items-center w-[var(--layout-width)] h-full md:justify-between">    
             <img src="~/assets/images/logotype.svg" alt="header" />
             <div class="md:flex md:gap-[35.65px] md:w-[360.40px] md:h-[20px] hidden">
-                <p class="text-dark-grey text-body-sm-semibold">Каталог</p>
-                <p class="text-dark-grey text-body-sm-semibold whitespace-nowrap">О нас</p>
+                <a href="#Catalog" class="text-dark-grey text-body-sm-semibold">Каталог</a>
+                <a href="#AboutUs" class="text-dark-grey text-body-sm-semibold whitespace-nowrap">О нас</a>
                 <p class="text-dark-grey text-body-sm-semibold">Преимущества</p>
                 <p class="text-dark-grey text-body-sm-semibold">Контакты</p>
             </div>
-            <button class="bg-black text-white rounded-full w-[151.36px] h-[40px] hidden md:block text-body-sm-semibold">Заказать звонок</button>
+            <a href="#PhoneForm" class="justify-center items-center bg-black text-white rounded-full w-[151.36px] h-[40px] hidden md:flex text-body-sm-semibold">Заказать звонок</a>
         </div>
         <hr class="absolute bottom-0 left-1/2 h-px w-screen -translate-x-1/2 border-0 bg-grey"/>
     </header>
