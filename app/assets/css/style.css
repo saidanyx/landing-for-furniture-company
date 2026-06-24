@@ -47,6 +47,14 @@
   letter-spacing: -1.2px;
 }
 
+.text-heading-3xl-black {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 45px;
+  letter-spacing: -1.5px;
+}
+
 .text-heading-3xl {
   font-family: var(--font-heading);
   font-size: 36px;
@@ -98,6 +106,22 @@
 
 /* Body */
 
+.text-body-xxl {
+  font-family: var(--font-body);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+}
+
+.text-body-xl {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+}
+
 .text-body-lg {
   font-family: var(--font-body);
   font-size: 18px;
@@ -146,6 +170,22 @@
   letter-spacing: 0;
 }
 
+.text-body-sm-height-semibold {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0;
+}
+
+.text-body-sm-height {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0;
+}
+
 .text-body-sm {
   font-family: var(--font-body);
   font-size: 14px;
@@ -172,12 +212,28 @@
   letter-spacing: 0.6px;
 }
 
+.text-body-xs-medium-spacing {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
 .text-body-xs-relaxed {
   font-family: var(--font-body);
   font-size: 12px;
   font-weight: 400;
   line-height: 22.8px;
   letter-spacing: 0;
+}
+
+.text-body-xs-spacing {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.4px;
 }
 
 .text-body-xs {
@@ -300,6 +356,30 @@
         line-height: 60px;
         letter-spacing: -1.2px;
     }
+
+    .text-heading-3xl-black {
+        font-family: var(--font-heading);
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 57px;
+        letter-spacing: -1.5px;
+    }
+
+    .text-body-xs-spacing {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.4px;
+  }
+
+  .text-body-xs-medium-spacing {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0px;
+  }
 }
 
 @media (min-width: 1440px) { 

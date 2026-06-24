@@ -6,6 +6,7 @@
         <SectionsFurniture class="mt-[35px] xl:mt-[40.22px]"/>
         <SectionsAdvantages class="mt-[35px] xl:mt-[96px]" />
         <SectionsPhone />
+        <SectionsReviews />
         <SectionsFooter />
     </main>
 </template>
