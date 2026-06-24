@@ -1,5 +1,5 @@
 <template>
-    <div class="flex xl:place-content-center">
+    <div id="PhoneForm" class="flex xl:place-content-center">
         <div class="relative bg-yellow p-[40px] md:p-[64px] flex flex-col rounded-2xl my-[35px] xl:my-[96px] gap-[32px] overflow-hidden w-full">
         
             <NuxtImg
@@ -14,12 +14,13 @@
             </div>
             <div class="flex flex-col gap-[12px] z-1 md:flex-row">
                 <input 
+                    v-model="phoneValue"
                     ref="phoneInput"
                     type="text" 
                     placeholder="+7 (___) ___-__-__" 
                     class="bg-white/95 text-body-sm-medium text-dark-grey border-1 md:w-[434.11px] xl:w-[514.11px] border-black/15 rounded-[33px] h-[54px] px-[25px]"
                 >
-                <button class="text-body-sm-bold bg-black rounded-[33px] md:w-[145.89px] text-white h-[52px] md:h-[54px] cursor-pointer">Жду звонка</button>
+                <button @click="sendPhone" class="text-body-sm-bold bg-black rounded-[33px] md:w-[145.89px] text-white h-[52px] md:h-[54px] cursor-pointer">Жду звонка</button>
             </div>
         </div>
     </div>
@@ -30,6 +31,7 @@
     import imask from 'imask';
 
     let phoneInput = ref(null);
+    let phoneValue = ref('')
     let phoneMask = null;
 
     onMounted(() => {
@@ -41,4 +43,21 @@
     onBeforeUnmount(() => {
         phoneMask?.destroy()
     })
+
+    const sendPhone = async () => {
+        if (phoneValue.value.length < 15) {
+            console.log("некорректный номер", phoneValue.value)
+            phoneValue.value = ''
+            return
+        }
+
+        await $fetch('/api/send-phone', {
+            method: 'POST',
+            body: {
+                phone: phoneValue.value
+            }
+        })
+
+        phoneValue.value = ''
+    }
 </script>

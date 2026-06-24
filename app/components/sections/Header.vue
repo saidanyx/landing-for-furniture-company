@@ -11,8 +11,8 @@
                     <p class="text-body-lg w-[85vw] text-dark-grey md:w-[440.53px]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
                 </div>
                 <div class="flex flex-col md:flex-row gap-[16px] mt-[13px] md:mt-[37.75px] xl:mt-[31.75px]">
-                    <button class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер <img src="~/assets/images/arrow_button.svg" alt=""></button>
-                    <button class="text-body-sm-medium border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</button>
+                    <button @click="openModal" class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер <img src="~/assets/images/arrow_button.svg" alt=""></button>
+                    <a href="#AboutUs" class="flex justify-center items-center text-body-sm-medium border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</a>
                 </div>
                 <div class="border-[1px] border-black/15 rounded-[27px] w-[342px] md:w-[386px] h-[120px] md:h-[137px] flex flex-col justify-center box-border px-[26px] md:px-[23px] gap-[9px] md:gap-[18px] mt-[13px] md:mt-[9.25px]">
                     <p class="text-body-sm-bold">Что такое замер?</p>
@@ -48,5 +48,28 @@
             <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
             <NuxtImg class="relative w-full h-full z-10 object-cover rounded-lg" src="/images/header_living_room.svg"></NuxtImg>
         </div>
+
+        
+
+        <SectionsQuizModal :is-open="isOpen" @close="closeModal"/>
     </section>
 </template>
+
+
+
+<script setup lang="ts">
+    const isOpen = ref(false)
+
+    const openModal = () => {
+        console.log('123')
+        isOpen.value = true
+        document.body.style.overflow = 'hidden'
+        document.documentElement.style.overflow = 'hidden'
+    }
+
+    const closeModal = () => {
+        isOpen.value = false
+        document.body.style.overflow = ''
+        document.documentElement.style.overflow = ''
+    }
+</script>

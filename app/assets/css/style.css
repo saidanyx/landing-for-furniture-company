@@ -1,10 +1,20 @@
 @import "tailwindcss";
 
+body, html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+button {
+  cursor: pointer;
+}
+
 :root {
   --font-heading: "Montserrat", sans-serif;
   --font-body: "Nunito", sans-serif;
   --layout-width: 87.8vw;
 }
+
 @theme {
   --color-white: #ffffff;
   --color-yellow: #FAD100;
@@ -35,6 +45,10 @@
   to {
     transform: translateX(-50%);
   }
+}
+
+.anchor-links {
+  scroll-margin-top: 80px;
 }
 
 /* Heading */
@@ -382,7 +396,11 @@
   }
 }
 
-@media (min-width: 1440px) { 
+@media (min-width: 1440px) {
+  
+   .anchor-links {
+      scroll-margin-top: 20vh;
+    }
 
     .text-heading-4xl {
         font-family: var(--font-heading);
