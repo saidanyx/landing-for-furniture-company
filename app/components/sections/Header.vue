@@ -11,8 +11,12 @@
                     <p class="text-body-lg w-[85vw] text-dark-grey md:w-[440.53px]">30 лет создаём диваны, кресла и шкафы, в которых хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненный сервис.</p>
                 </div>
                 <div class="flex flex-col md:flex-row gap-[16px] mt-[13px] md:mt-[37.75px] xl:mt-[31.75px]">
-                    <button @click="openModal" class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] h-[52px] bg-yellow">Сделать замер <img src="~/assets/images/arrow_button.svg" alt=""></button>
-                    <a href="#AboutUs" class="flex justify-center items-center text-body-sm-medium border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве</a>
+                    <button @click="openModal" class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] h-[52px] bg-yellow transition-all duration-300 ease-in-out hover:scale-105 active:scale-95 group">Сделать замер <img class="transition-transform duration-300 ease-in-out group-hover:translate-x-1 group-active:translate-x-2" src="~/assets/images/arrow_button.svg" alt=""></button>
+
+                    <a href="#AboutUs" class="relative group cursor-pointer flex justify-center items-center text-body-sm-medium border-[1px] border-[#DAD9D6] rounded-[33px] text-black w-[165px] h-[54px]">О производстве
+                        <span class="absolute -bottom-0.5 right-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+                    </a>
+                    
                 </div>
                 <div class="border-[1px] border-black/15 rounded-[27px] w-[342px] md:w-[386px] h-[120px] md:h-[137px] flex flex-col justify-center box-border px-[26px] md:px-[23px] gap-[9px] md:gap-[18px] mt-[13px] md:mt-[9.25px]">
                     <p class="text-body-sm-bold">Что такое замер?</p>
