@@ -5,8 +5,8 @@
         <SectionsMerquee class="anchor-links mt-[36px]" />
         <SectionsCatalog class="anchor-links pt-[35px] xl:mt-[40.22px]"/>
         <SectionsAboutUs class="anchor-links mt-[35px] xl:mt-[96px]" />
+        <SectionsReviews class="anchor-links mt-[24px]" />
         <SectionsPhoneForm />
-        <SectionsReviews />
         <SectionsFooter />
     </main>
 </template>
