@@ -7,6 +7,7 @@
                 <a href="#AboutUs" class="text-dark-grey text-body-sm-semibold whitespace-nowrap">О нас</a>
                 <p class="text-dark-grey text-body-sm-semibold">Преимущества</p>
                 <p class="text-dark-grey text-body-sm-semibold">Контакты</p>
+                <p href="#Reviews" class="text-dark-grey text-body-sm-semibold">Отзывы</p>
             </div>
             <a href="#PhoneForm" class="justify-center items-center bg-black text-white rounded-full w-[151.36px] h-[40px] hidden md:flex text-body-sm-semibold">Заказать звонок</a>
         </div>

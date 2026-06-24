@@ -1,6 +1,6 @@
 <template>
     <div id="PhoneForm" class="flex xl:place-content-center">
-        <div class="relative bg-yellow p-[40px] md:p-[64px] flex flex-col rounded-2xl my-[35px] xl:my-[96px] gap-[32px] overflow-hidden w-full">
+        <div class="relative bg-yellow p-[40px] md:p-[64px] flex flex-col rounded-2xl gap-[32px] overflow-hidden w-full">
         
             <NuxtImg
             class="absolute right-[-92px] md:right-[-70px] xl:right-[0px] bottom-0"
