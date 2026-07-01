@@ -9,6 +9,10 @@ button {
   cursor: pointer;
 }
 
+input:focus {
+  outline: none;
+}
+
 :root {
   --font-heading: "Montserrat", sans-serif;
   --font-body: "Nunito", sans-serif;

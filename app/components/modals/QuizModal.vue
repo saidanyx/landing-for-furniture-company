@@ -1,26 +1,22 @@
 <template>
     <Transition name="modal">
-        <div @click="emit('close')" v-show="isOpen" class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full bg-black/50 z-10 flex justify-center items-center">
+        <div @click="close" v-show="isOpen" class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full h-full bg-black/50 z-10 flex justify-center items-center">
             <div @click.stop class="modal-content w-[90%] h-[80%] relative flex content-center items-center">
                 <iframe class="w-full h-full"
                     src="//quiz.marquiz.ru/691af789b121790019a15c6d?cookies=%7B%22_ym_uid%22%3A%221781900775278625305%22%7D&amp;
                     href=https%3A%2F%2Fmebel.meyko.ru%2F%3Fysclid%3Dmqp8zk53du590821641&amp;mode=inline&amp;ysclid=mqp8zk53du590821641"
                     scrolling="auto" frameborder="0" allow="autoplay">
                 </iframe>
-                <button class="absolute top-[12px] right-[12px]" @click="emit('close')"><img class="w-[30px] " src="~/assets/images/cross.svg" alt=""></button>
+                <button class="cursor-pointer z-100 absolute w-[15px] top-[8px] right-[8px] xl:top-[3px] xl:right-[3px]" @click="close"><img class="w-[full]" src="~/assets/images/cross.svg" alt=""></button>
             </div>
         </div>
     </Transition>
 </template>
 
 <script setup lang="ts">
-    defineProps<{
-        isOpen: boolean
-    }>()
+    import { UseQuizModal } from '../composables/QuizModalComposable'
 
-    const emit = defineEmits<{
-        close: []
-    }>()
+    const { isOpen, close } = UseQuizModal()
 </script>
 
 <style scoped>
