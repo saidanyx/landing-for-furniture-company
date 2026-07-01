@@ -51,6 +51,11 @@ button {
   scroll-margin-top: 80px;
 }
 
+.policy-section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
 /* Heading */
 
 .text-heading-4xl {

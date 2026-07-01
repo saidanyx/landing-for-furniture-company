@@ -20,7 +20,7 @@
                     placeholder="+7 (___) ___-__-__" 
                     class="bg-white/95 text-body-sm-medium text-dark-grey border-1 md:w-[434.11px] xl:w-[514.11px] border-black/15 rounded-[33px] h-[54px] px-[25px]"
                 >
-                <button @click="sendPhone" class="text-body-sm-bold bg-black rounded-[33px] md:w-[145.89px] text-white h-[52px] md:h-[54px] cursor-pointer">Жду звонка</button>
+                <button @click="sendPhone" class="text-body-sm-bold bg-black rounded-[33px] md:w-[145.89px] text-white h-[52px] md:h-[54px] cursor-pointer transition-all duration-300 ease-in-out hover:scale-105 active:scale-95 group">Жду звонка</button>
             </div>
         </div>
     </div>

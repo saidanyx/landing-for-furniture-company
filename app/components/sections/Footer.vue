@@ -17,7 +17,9 @@
         <div class="flex flex-col gap-[16px]  w-[340px] xl:w-[278px]">
             <h1 class="text-label-sm text-black">КАТАЛОГ</h1>
             <div class="flex flex-col gap-[10px]">
-                <p class="text-body-sm text-dark-grey">Диваны</p>
+                <div class="group">
+                    <p class="text-body-sm text-dark-grey transition-all duration-300 group-hover:text-grey">Диваны</p>
+                </div>
                 <p class="text-body-sm text-dark-grey">Кресла</p>
                 <p class="text-body-sm text-dark-grey">Шкафы</p>
                 <p class="text-body-sm text-dark-grey">Кухни</p>
