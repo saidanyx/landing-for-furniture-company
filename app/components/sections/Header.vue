@@ -24,8 +24,8 @@
                         <img class="" src="~/assets/images/arrow_button.svg" alt="">
                     </button>
 
-                    <div class="cursor-pointer flex justify-center items-center border-[1px] border-[#DAD9D6] rounded-[33px] w-[165px] 3xl:w-[184px] h-[54px]">
-                        <a :href="hero.buttons.secondary.href" class="relative text-body-sm-medium text-black group">
+                    <div class="cursor-pointer group flex justify-center items-center border-[1px] border-[#DAD9D6] rounded-[33px] w-[165px] 3xl:w-[184px] h-[54px]">
+                        <a :href="hero.buttons.secondary.href" class="relative text-body-sm-medium text-black">
                             {{ hero.buttons.secondary.text }}
                             <span class="absolute -bottom-0.5 right-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
                         </a>

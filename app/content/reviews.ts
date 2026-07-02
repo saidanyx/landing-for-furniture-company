@@ -2,13 +2,13 @@ export const reviewsContent = {
     badge: 'Отзывы клиентов',
 
     title: {
-        firstLine: 'Нам доверяют',
-        secondLine: 'уют в доме.',
+        firstLine: 'Реальные отзывы',
+        secondLine: 'на Яндекс Картах',
     },
 
     description: {
-        firstLine: 'Мы ценим доверие наших клиентов и делаем всё,',
-        secondLine: 'чтобы каждая покупка радовала долгие годы.',
+        firstLine: 'Посмотрите, что пишут клиенты о нашей работе,',
+        secondLine: 'от первого замера до установки мебели.',
     },
 
     widgets: {

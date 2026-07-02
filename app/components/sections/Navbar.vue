@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed top-0 left-0 w-full z-50 bg-white/50 backdrop-blur-3xl h-[73px] flex justify-center items-center">
+    <header class="fixed top-0 left-0 w-full z-50 bg-white/50 backdrop-blur-3xl h-[73px] flex justify-center items-center 3xl:h-[85px]">
         <div class="flex justify-start items-center w-[var(--layout-width)] h-full md:justify-between">    
             <img src="~/assets/images/logotype.svg" alt="header" />
             <div class="hidden md:flex md:gap-[35.65px]">

@@ -23,6 +23,8 @@
                             v-if="item === footer.personalDataPolicy.text"
                             class="text-body-sm text-dark-grey"
                             :to="footer.personalDataPolicy.to"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             {{ item }}
                         </NuxtLink>
