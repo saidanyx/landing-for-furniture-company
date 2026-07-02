@@ -86,10 +86,10 @@
 </template>
 
 <script setup lang="ts">
-    import { landingContent } from '~/data/landing'
+    import { headerContent } from '~/content/header'
     import { UseQuizModal } from '../composables/QuizModalComposable'
 
     const { open } = UseQuizModal()
 
-    const hero = landingContent.header
+    const hero = headerContent
 </script>

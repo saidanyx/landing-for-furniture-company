@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-    import { landingContent } from '~/data/landing'
+    import { footerContent } from '~/content/footer'
 
-    const footer = landingContent.footer
+    const footer = footerContent
 </script>

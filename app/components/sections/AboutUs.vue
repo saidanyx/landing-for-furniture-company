@@ -15,7 +15,7 @@
                     <div class="flex flex-col px-[32px] pt-[32px] pb-[33.5px] md:w-full bg-white rounded-t-[24px] md:rounded-none">
                         <p class="text-number-xs text-orange">{{ about.cards.production.number }}</p>
                         <h1 class="text-heading-xl-bold text-black mt-[16px]">{{ about.cards.production.title.firstLine }}<br> {{ about.cards.production.title.secondLine }}</h1>
-                        <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">{{ about.cards.production.text.firstLine }}<br class="hidden md:block xl:hidden"> {{ about.cards.production.text.secondLine }}<br hidden xl:block> {{ about.cards.production.text.thirdLine }}</p>
+                        <p class="text-body-sm-relaxed text-dark-grey mt-[10px]">{{ about.cards.production.text.firstLine }}<br class="hidden md:block xl:hidden"> {{ about.cards.production.text.secondLine }}<br class="hidden xl:block"> {{ about.cards.production.text.thirdLine }}</p>
                     </div>
                     <div class="flex flex-col px-[32px] pt-[32px] pb-[33.5px] md:w-full bg-white">
                         <p class="text-number-xs text-orange">{{ about.cards.choice.number }}</p>
@@ -41,7 +41,7 @@
 </template>
 
 <script setup lang="ts">
-    import { landingContent } from '~/data/landing'
+    import { aboutContent } from '~/content/about'
 
-    const about = landingContent.about
+    const about = aboutContent
 </script>
