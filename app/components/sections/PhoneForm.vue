@@ -37,9 +37,9 @@
     import { UsePhoneModal } from '../composables/PhoneModalComposable';
     import { ref, onMounted, onBeforeUnmount } from 'vue';
     import imask from 'imask';
-    import { landingContent } from '~/data/landing'
+    import { phoneFormContent } from '~/content/phoneForm'
 
-    const phoneForm = landingContent.phoneForm
+    const phoneForm = phoneFormContent
 
     let { open, isOpen, text } = UsePhoneModal()
     let phoneInput = ref(null);

@@ -36,7 +36,7 @@
 </template>
 
 <script setup lang="ts">
-    import { landingContent } from '~/data/landing'
+    import { catalogContent } from '~/content/catalog'
 
-    const catalog = landingContent.catalog
+    const catalog = catalogContent
 </script>

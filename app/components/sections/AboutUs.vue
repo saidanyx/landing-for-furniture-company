@@ -41,7 +41,7 @@
 </template>
 
 <script setup lang="ts">
-    import { landingContent } from '~/data/landing'
+    import { aboutContent } from '~/content/about'
 
-    const about = landingContent.about
+    const about = aboutContent
 </script>

@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-    import { landingContent } from '~/data/landing'
+    import { reviewsContent } from '~/content/reviews'
 
-    const reviews = landingContent.reviews
+    const reviews = reviewsContent
 </script>
