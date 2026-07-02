@@ -15,7 +15,9 @@
       -->
       <div v-html="item.text"></div>
     </div>
-    <button class="bg-yellow rounded-full p-[10px]">Назад</button>
+    <button class="bg-yellow rounded-full p-[10px] flex gap-[10px]">Назад
+        <img class="" src="~/assets/images/return.svg" alt="" width="18px" height="18px">
+    </button>
   </div>
 </template>
 

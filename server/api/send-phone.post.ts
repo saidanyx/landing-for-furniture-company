@@ -1,4 +1,20 @@
+import { readBody, createError, getRequestIP } from 'h3'
+
+type AttemptInfo = {
+  count: number
+  firstAttemptAt: number
+}
+
+const WINDOW_MS = 15 * 60 * 1000 // 15 минут
+const MAX_ATTEMPTS_BY_IP = 3
+
+const PHONE_COOLDOWN_MS = 60 * 60 * 1000 // 1 час
+
+const ipAttempts = new Map<string, AttemptInfo>()
+const phoneAttempts = new Map<string, number>()
+
 export default defineEventHandler(async (event) => {
+
 	const body = await readBody(event)
 
 	const phone = body.phone
