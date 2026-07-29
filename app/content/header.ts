@@ -1,5 +1,5 @@
 export const headerContent = {
-    badge: 'Воронеж · с 1995 года',
+    badge: 'Воронеж · с 1992 года',
 
     title: {
         firstLine: 'Мебель,',
@@ -33,7 +33,7 @@ export const headerContent = {
             label: 'декоров',
         },
         clients: {
-            value: '76%',
+            value: '75%',
             labelFirstLine: 'клиентов',
             labelSecondLine: 'рекомендуют',
         },

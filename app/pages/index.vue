@@ -12,3 +12,41 @@
         <ModalsPhoneModal />
     </main>
 </template>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Мебель на заказ в Воронеже',
+  description: 'Изготавливаем кухни, шкафы, прихожие и корпусную мебель на заказ в Воронеже. Оставьте заявку, и менеджер свяжется с вами.',
+  ogTitle: 'Мебель на заказ в Воронеже | МЭЙКО',
+  ogDescription: 'Мебельная фабрика МЭЙКО: кухни, шкафы и корпусная мебель на заказ.',
+  ogImage: '/images/og-main.png',
+  twitterCard: 'summary_large_image',
+  robots: 'index, follow'
+})
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FurnitureStore',
+        name: 'МЭЙКО',
+        legalName: 'ООО «МЭЙКО»',
+        url: 'https://meyko.ru',
+        logo: 'https://meyko.ru/favicon.ico',
+        image: 'https://meyko.ru/images/og-main.png',
+        telephone: '+79913250901',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Воронеж',
+          addressCountry: 'RU'
+        },
+        sameAs: [
+          'https://meyko.ru'
+        ]
+      })
+    }
+  ]
+})
+</script>

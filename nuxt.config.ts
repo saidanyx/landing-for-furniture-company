@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()]
   },
 
-  modules: ['@nuxt/fonts', '@nuxt/image'],
+  modules: ['@nuxt/fonts', '@nuxt/image', '@nuxtjs/seo'],
 
   fonts: {
     families: [
@@ -29,4 +29,22 @@ export default defineNuxtConfig({
       }
     ]
   },
+
+  site: {
+    url: 'https://meyko.ru',
+    name: 'МЭЙКО',
+    description: 'Мебель на заказ в Воронеже от мебельной фабрики МЭЙКО',
+    defaultLocale: 'ru'
+  },
+
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'ru'
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
+  }
 })

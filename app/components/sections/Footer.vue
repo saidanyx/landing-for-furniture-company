@@ -20,9 +20,19 @@
                 <div class="flex flex-col gap-[10px]">
                     <template v-for="(item, itemIndex) in chapter.items" :key="itemIndex">
                         <NuxtLink
-                            v-if="item === footer.personalDataPolicy.text"
+                            v-if="item === footer.personalDataProcessingPolicy.text"
                             class="text-body-sm text-dark-grey"
-                            :to="footer.personalDataPolicy.to"
+                            :to="footer.personalDataProcessingPolicy.to"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {{ item }}
+                        </NuxtLink>
+
+                        <NuxtLink
+                            v-else-if="item === footer.SaleAndPurchaseAgreement.text"
+                            class="text-body-sm text-dark-grey"
+                            :to="footer.SaleAndPurchaseAgreement.to"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

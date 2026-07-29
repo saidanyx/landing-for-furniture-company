@@ -19,40 +19,40 @@ export const aboutContent = {
         production: {
             number: '01',
             title: {
-                firstLine: 'Воронежское',
-                secondLine: 'производство',
+                firstLine: 'Экологичные',
+                secondLine: 'материалы',
             },
             text: {
-                firstLine: 'Полный цикл изготовления',
-                secondLine: 'на',
-                thirdLine: 'собственной фабрике.',
+                firstLine: 'Самая экологичная плита в РФ',
+                secondLine: 'с классом эмиссии Е0',
+                thirdLine: 'и вся прямая кромка влагостойкая.' 
             },
         },
 
         choice: {
             number: '02',
-            title: 'Огромный выбор мебели',
+            title: 'Рассрочка 0%',
             text: {
-                firstLine: 'Более 1 200 моделей в каталоге,',
-                secondLine: 'кастомизация под вас.',
+                firstLine: 'Рассрочка от компании',
+                secondLine: 'без лишних переплат.',
             },
         },
 
         service: {
             number: '03',
-            title: 'Пожизненный сервис',
+            title: 'Пожизненная гарантия',
             text: {
-                firstLine: 'Гарантийное и постгарантийное',
-                secondLine: 'обслуживание деталей навсегда.',
+                firstLine: 'Пожизненная гарантия',
+                secondLine: 'на комплектующие.',
             },
         },
 
         years: {
             number: '04',
-            title: '30 лет с вами',
+            title: 'Семейный бизнес',
             text: {
-                firstLine: 'С 1995 года создаём мебель, которой',
-                secondLine: 'доверяют.',
+                firstLine: 'Любим своё дело',
+                secondLine: 'и знаем производство изнутри.',
             },
         },
     },
