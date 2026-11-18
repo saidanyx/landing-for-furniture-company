@@ -84,7 +84,7 @@ const sendPhone = async () => {
     return
   }
 
-  await $fetch('/api/send-phone.php', {
+  await $fetch('/api/send-phone.ts', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
