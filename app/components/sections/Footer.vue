@@ -3,7 +3,7 @@
         <div class="relative flex flex-col pt-[56px] pb-[57px] gap-[40px] xl:flex-row xl:w-full xl:justify-between xl:gap-[20px]">
             <div class="flex flex-col gap-[20px]">
                 <img 
-                    src="/assets/images/Logotype.svg"
+                    src="/assets/images/logotype.svg"
                     alt="image"
                     width="131.7px"
                     height="40px"
