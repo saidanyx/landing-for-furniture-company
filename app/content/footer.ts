@@ -5,9 +5,19 @@ export const footerContent = {
         thirdLine: 'года.',
     },
 
-    personalDataPolicy: {
-        text: 'Политика обработки персольных данных',
-        to: '/personalDataProcessingPolicy',
+    personalDataProcessingPolicy: {
+        text: 'Политика обработки персональных данных',
+        href: '/documents/personal-data-policy.pdf',
+    },
+
+    SaleAndPurchaseAgreement: {
+        text: 'Договор купли-продажи',
+        href: '/documents/sale-and-purchase-agreement.pdf',
+    },
+
+    logo: {
+        src: '/logotype.svg',
+        alt: 'Мэйко — мебель',
     },
 
     chapters: [
@@ -17,11 +27,14 @@ export const footerContent = {
         },
         {
             title: 'Контакты',
-            items: ['г. Воронеж, ул. Ильюшина, 5', '+7 (991) 325-09-01', 'hello@meyko.ru'],
+            items: ['г. Воронеж, ул. Ильюшина, 5', '+7 (991) 325-09-01', 'info@meyko.ru'],
         },
         {
             title: 'Документы',
-            items: ['Политика обработки персольных данных'],
+            items: [
+                'Политика обработки персональных данных',
+                'Договор купли-продажи',
+            ],
         },
     ],
 

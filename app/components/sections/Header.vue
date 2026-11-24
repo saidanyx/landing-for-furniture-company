@@ -21,7 +21,11 @@
                 <div class="flex flex-col md:flex-row gap-[16px] mt-[13px] md:mt-[37.75px] xl:mt-[31.75px]">
                     <button @click="open" class="flex justify-center items-center gap-[11px] text-body-sm-bold rounded-[33px] text-black w-[203px] 3xl:w-[222px] h-[52px] bg-yellow transition-all duration-300 ease-in-out hover:scale-103 active:scale-95 group">
                         {{ hero.buttons.primary }}
-                        <img class="" src="~/assets/images/arrow_button.svg" alt="">
+                        <NuxtImg
+                            :src="hero.arrow.src"
+                            :alt="hero.arrow.alt"
+                            loading="eager"
+                        />
                     </button>
 
                     <div class="cursor-pointer flex justify-center items-center border-[1px] border-[#DAD9D6] rounded-[33px] w-[165px] 3xl:w-[184px] h-[54px]">
@@ -40,16 +44,20 @@
                     </p>
                 </div>
             </div>
-            
-            <div class="relative hidden xl:block">
-                <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
 
-                <NuxtImg 
-                    class="relative w-[620px] h-[498.33px] z-10 object-cover rounded-lg" src="/images/гостиная с рабочим столом.jpg"
+            <div class="relative hidden xl:block">
+                <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl"></div>
+                <NuxtImg
+                    class="relative w-[620px] h-[498.33px] z-10 object-cover rounded-lg"
+                    :src="hero.images.src"
+                    :alt="hero.images.alt"
+                    sizes="100vw xl:620px"
+                    format="webp"
+                    quality="82"
                     loading="eager"
+                    decoding="async"
                     :preload="{ fetchPriority: 'high' }"
-                    alt="Главное изображение"
-                ></NuxtImg>
+                />
             </div>
         </div>
 
@@ -67,7 +75,7 @@
                     <p class="text-body-xs-medium uppercase text-dark-grey">{{ hero.stats.models.label }}</p>
                 </div>
 
-                <div class="flex flex-col gap-1 justify-start text-center items-end h-[56px] w-[100px]"> 
+                <div class="flex flex-col gap-1 justify-start text-center items-end h-[56px] w-[100px]">
                     <p class="text-heading-2xl">{{ hero.stats.clients.value }}</p>
                     <p class="text-body-xs-medium uppercase text-end text-dark-grey whitespace-nowrap">
                         {{ hero.stats.clients.labelFirstLine }}<br class="md:hidden"> {{ hero.stats.clients.labelSecondLine }}
@@ -78,9 +86,18 @@
             <hr class="h-px w-full border-0 bg-grey"/>
         </div>
 
-       <div class="relative w-full h-full mt-[34px] md:mt-[85px] xl:hidden">
-            <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl" />
-            <NuxtImg class="relative w-full h-full z-10 object-cover rounded-lg" src="/images/гостиная с рабочим столом.jpg"></NuxtImg>
+        <div class="relative w-full h-full mt-[34px] md:mt-[85px] xl:hidden">
+            <div class="pointer-events-none absolute -right-10 -top-10 z-1 h-[288px] w-[288px] rounded-full bg-[radial-gradient(circle,#FFD400_0%,rgba(249,157,28,0.5)_80%,rgba(249,157,28,0)_75%)] blur-2xl"></div>
+            <NuxtImg
+                class="relative w-full h-full z-10 object-cover rounded-lg"
+                :src="hero.images.src"
+                :alt="hero.images.alt"
+                sizes="100vw xl:620px"
+                format="webp"
+                quality="82"
+                loading="eager"
+                decoding="async"
+            />
         </div>
     </section>
 </template>

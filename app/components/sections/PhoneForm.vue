@@ -1,12 +1,12 @@
 <template>
     <div id="PhoneForm" class="flex xl:place-content-center">
-        <div class="relative bg-yellow p-[40px] md:p-[64px] flex flex-col rounded-2xl gap-[32px] overflow-hidden w-full">
-        
+        <div class="relative bg-yellow p-[40px] md:p-[64px] flex flex-col rounded-2xl gap-[32px] overflow-hidden w-full">   
             <NuxtImg
-            class="absolute right-[-92px] md:right-[-70px] xl:right-[0px] bottom-0"
-            width="248px"
-            height="248px"
-            src="/images/cat.png"
+                class="absolute right-[-92px] md:right-[-70px] xl:right-[0px] bottom-0"
+                width="248px"
+                height="248px"
+                :src="phoneForm.images.src"
+                :alt="phoneForm.images.alt"
             />
             <div class="flex flex-col gap-[20px] z-1">
                 <h1 class="text-heading-3xl text-black">
@@ -37,9 +37,7 @@
     import { UsePhoneModal } from '../composables/PhoneModalComposable';
     import { ref, onMounted, onBeforeUnmount } from 'vue';
     import imask from 'imask';
-    import { phoneFormContent } from '~/content/phoneForm'
-
-    const phoneForm = phoneFormContent
+    import { phoneFormContent as phoneForm } from '~/content/phoneForm'
 
     let { open, isOpen, text } = UsePhoneModal()
     let phoneInput = ref(null);

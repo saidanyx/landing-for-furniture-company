@@ -11,6 +11,10 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()]
   },
 
+  image: {
+    dir: 'assets/images',
+  },
+
   modules: ['@nuxt/fonts', '@nuxt/image'],
 
   fonts: {

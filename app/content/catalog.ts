@@ -6,32 +6,32 @@ export const catalogContent = {
         {
             title: 'Кухня',
             name: 'Кухня-гостиная с островом',
-            image: '/images/kitchen_new_4.svg',
+            image: '/kitchen1.webp',
         },
         {
             title: 'Кухня',
             name: 'Современная белая кухня',
-            image: '/images/kitchen_new_1.svg',
+            image: '/kitchen2.webp',
         },
         {
             title: 'Кухня',
             name: 'Современная с Opal пластиком',
-            image: '/images/kitchen_new_5.svg',
+            image: '/kitchen3.webp',
         },
         {
             title: 'Кухня',
             name: 'Классическая с эмалью',
-            image: '/images/kitchen_new_2.svg',
+            image: '/kitchen4.webp',
         },
         {
             title: 'Кухня',
             name: 'Проект «Классика»',
-            image: '/images/kitchen_4.svg',
+            image: '/kitchen5.webp',
         },
         {
             title: 'Кухня',
             name: 'Проект: «Графит»',
-            image: '/images/kitchen_3.svg',
+            image: '/kitchen6.webp',
         },
     ],
 } as const

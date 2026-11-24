@@ -5,6 +5,11 @@ export const phoneFormContent = {
         thirdLine: 'разговор.',
     },
 
+    images: {
+        src: '/cat.webp',
+        alt: 'Черный кот'
+    },
+
     description:
         'Оставьте номер — менеджер позвонит в течение 15 минут, рассчитает смету и забронирует бесплатный замер.',
 

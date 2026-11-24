@@ -13,7 +13,6 @@
     import { UsePhoneModal } from '../composables/PhoneModalComposable';
     
     const { isOpen, close, text } = UsePhoneModal()
-    console.log("111111", text)
 </script>
 
 <style scoped>

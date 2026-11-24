@@ -14,10 +14,18 @@
                 class="bg-white rounded-[24px] overflow-hidden flex flex-col border-[1px] border-grey h-full"
             >
                 <div class="aspect-[4/3] w-full overflow-hidden">
-                    <img 
+                    <NuxtImg
                         :src="product.image"
                         :alt="product.name"
                         class="w-full h-full object-cover"
+
+                        sizes="100vw md:50vw lg:33vw"
+
+                        format="webp"
+                        quality="80"
+
+                        loading="lazy"
+                        decoding="async"
                     />
                 </div>
 

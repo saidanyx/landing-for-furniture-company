@@ -10,6 +10,16 @@ export const headerContent = {
     description:
         '34 года создаём мебель, с которой хочется жить. Своё производство — честные цены, индивидуальные размеры, пожизненная гарантия.',
 
+    images: {
+        src: '/header_image.webp',
+        alt: 'Уютная гостинная'
+    },
+    
+    arrow: {
+        src: '/arrow_button.svg',
+        alt: 'Стрелка назад'
+    },
+
     buttons: {
         primary: 'Сделать замер',
         secondary: {
